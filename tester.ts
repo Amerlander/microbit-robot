@@ -11,12 +11,6 @@ namespace robot.test {
             playTone(640, 50)
             led.toggle(0, 2)
         })
-        onLineLeftMiddleRightDetected(true, true, true, () => {
-            playTone(680, 50)
-        })
-        onLineOuterLeftLeftOuterRightDetected(true, true, true, true, () => {
-            playTone(720, 50)
-        })
         onObstacleDistanceChanged(function () {
             playTone(768, 50)
         })
